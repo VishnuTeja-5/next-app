@@ -15,7 +15,7 @@ function Navbar() {
         </div>
         <div className='w-32'>
           <motion.button 
-            className=' px-6 py-1 rounded shadow-custom-shadow'
+            className=' px-6 py-2 rounded bg-white font-semibold text-sm shadow-custom-shadow'
             whileTap={{
               scale:0.95
             }}
