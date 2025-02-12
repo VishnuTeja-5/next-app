@@ -6,8 +6,8 @@ import { Transition } from "@/animation/index"
 function Hero() {
   return (
     <Transition delay={0.3} y={-50} stiffness={30} >
-    <div className='relative flex flex-col md:mt-16 lg:mt-0 md:pl-12 w-full min-h-screen md:grid md:grid-cols-12 place-content-between bg-white'>
-        <div className='w-full h-full flex flex-col gap-2 justify-center col-start-1 col-end-7'>
+    <div className='relative flex flex-col md:mt-16 lg:mt-0 md:pl-12 w-full min-h-screen h-full md:grid md:grid-cols-12 place-content-between bg-white'>
+        <div className='w-full min-h-screen h-full flex flex-col gap-2 justify-center col-start-1 col-end-7'>
             <h1 className='w-full text-center md:text-left text-6xl font-bold font-heading'>Lorem ipsum dolor sit amet</h1>
             <p className='w-full text-center md:text-left font-subheading'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aliquam itaque quidem voluptate doloribus commodi vitae voluptates rerum veniam dolore distinctio nam quaerat, voluptatum error adipisci odio consequuntur repudiandae tempore.</p>
             <div className='w-full flex flex-col justify-center md:justify-start items-center sm:flex-row gap-4 md:pt-12'>
