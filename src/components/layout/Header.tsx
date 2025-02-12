@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar,Aside } from '@/components/index';
-import Transition from '@/animation/Transition';
+import {Transition} from '@/animation/index';
 
 function Header() {
   return (

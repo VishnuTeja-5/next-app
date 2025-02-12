@@ -2,7 +2,10 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Navbar from '@/components/layout/Navbar';
 import Aside from '@/components/layout/Aside';
-import Hero from '@/components/hero/Hero'
+import Hero from '@/components/hero/Hero';
+import Section1 from '@/components/section1/Section1';
+import Section1Sub1 from './section1/Section1Sub1';
+import Section1Sub2 from './section1/Section1Sub2';
 
 export {
     Header,
@@ -10,4 +13,7 @@ export {
     Navbar,
     Aside,
     Hero,
+    Section1,
+    Section1Sub1,
+    Section1Sub2,
 }

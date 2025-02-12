@@ -1,9 +1,11 @@
 "use client"
 import React from 'react'
 import Image from "next/image";
+import { Transition } from "@/animation/index"
 
 function Hero() {
   return (
+    <Transition delay={0.3} y={-50} stiffness={30} >
     <div className='relative flex flex-col md:mt-16 lg:mt-0 md:pl-12 w-full min-h-screen md:grid md:grid-cols-12 place-content-between bg-white'>
         <div className='w-full h-full flex flex-col gap-2 justify-center col-start-1 col-end-7'>
             <h1 className='w-full text-center md:text-left text-6xl font-bold font-heading'>Lorem ipsum dolor sit amet</h1>
@@ -17,10 +19,12 @@ function Hero() {
                 <p className='font-medium text-sm'>No credit card required</p>
             </div>
         </div>
-        <div className='hidden md:block md:col-start-7 md:col-end-13 items-center justify-center'>
-            <Image className='w-full h-full object-contain' width={100} height={100} src="/img/hero-a.png" alt='Hero Image'/> 
+        
+        <div className='p-4 md:p-0 md:col-start-7 md:col-end-13 items-center justify-center'>
+            <Image className='w-full h-full object-contain' width={100} height={100} src="/img/hero-a.png" alt='Hero Image' loading='lazy'/> 
         </div>
     </div>
+    </Transition>
   )
 }
 
