@@ -11,6 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary : "var(--PRIMARY)",
+        secondary : "var(--SECONDARY)",
+      },
+      fontFamily:{
+        heading: ['"Roboto Condensed"', 'sans-serif'],
+        subheading: ['"Inter"', 'sans-serif'],
+      },
+      boxShadow: {
+        'custom-shadow': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
       },
     },
   },
