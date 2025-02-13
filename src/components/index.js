@@ -15,6 +15,7 @@ import Section9 from '@/components/section9/Section9';
 import Section10 from '@/components/section10/Section10';
 import Section11 from '@/components/section11/Section11';
 import Section12 from '@/components/section12/Section12';
+import Section13 from '@/components/section13/Section13';
 import Section1Sub1 from './section1/Section1Sub1';
 import Section1Sub2 from './section1/Section1Sub2';
 import Question from './section12/Question';
@@ -38,6 +39,7 @@ export {
     Section10,
     Section11,
     Section12,
+    Section13,
     Section1Sub1,
     Section1Sub2,
     Card,

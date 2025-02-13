@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-
 function Section1Sub1() {
   return (
     <div className='w-full py-4 h-full md:col-start-1 col-end-7'>
@@ -11,19 +9,19 @@ function Section1Sub1() {
         </div>
         <div className='w-full px-2 py-4'>
             <div className='w-full flex flex-col justify-center sm:grid sm:grid-cols-12'>
-                <Image className='w-full p-6 sm:col-start-1 sm:col-end-5' src='/img/section1_img2.png' alt='section1 img2' width={80} height={80} />
+                <img className='w-full p-6 sm:col-start-1 sm:col-end-5' src='/img/section1_img2.png' alt='section1 img2' width={80} height={80} />
                 <p className='w-full h-full text-center flex justify-center items-center sm:col-start-5 sm:col-end-13'>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, suscipit recusandae ab ut itaque
                 </p>
             </div>
             <div className='w-full flex flex-col justify-center sm:grid sm:grid-cols-12'>
-                <Image className='w-full p-6 sm:col-start-1 sm:col-end-5' src='/img/section1_img3.png' alt='section1 img3' width={80} height={80} />
+                <img className='w-full p-6 sm:col-start-1 sm:col-end-5' src='/img/section1_img3.png' alt='section1 img3' width={80} height={80} />
                 <p className='w-full h-full text-center flex justify-center items-center sm:col-start-5 sm:col-end-13'>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, suscipit recusandae ab ut itaque
                 </p>
             </div>
             <div className='w-full flex flex-col justify-center sm:grid sm:grid-cols-12'>
-                <Image className='w-full p-6 sm:col-start-1 sm:col-end-5' src='/img/section1_img4.png' alt='section1 img4' width={80} height={80} />
+                <img className='w-full p-6 sm:col-start-1 sm:col-end-5' src='/img/section1_img4.png' alt='section1 img4' width={80} height={80} />
                 <p className='w-full h-full text-center flex justify-center items-center sm:col-start-5 sm:col-end-13'>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, suscipit recusandae ab ut itaque
                 </p>

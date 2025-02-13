@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import Image from "next/image";
 import { Transition } from "@/animation/index"
 
 function Hero() {
@@ -21,7 +20,7 @@ function Hero() {
         </div>
         
         <div className='p-4 md:p-0 md:col-start-7 md:col-end-13 items-center justify-center'>
-            <Image className='w-full h-full object-contain' width={100} height={100} src="/img/hero-a.png" alt='Hero Image' loading='lazy'/> 
+            <img className='w-full h-full object-contain' width={100} height={100} src="/img/hero-a.png" alt='Hero Image' loading='lazy'/> 
         </div>
     </div>
     </Transition>
