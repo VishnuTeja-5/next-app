@@ -1,8 +1,9 @@
-import Image from 'next/image'
+import { Transition } from '@/animation'
 import React from 'react'
 
 function Section7() {
   return (
+    <Transition delay={0.5} stiffness={30}>
     <div className='relative w-full px-8 py-4 min-h-screen bg-slate-100 md:gap-4 md:grid md:grid-rows-12 md:grid-cols-12'>
         <div className='md:absolute h-full md:bg-transparent w-full flex flex-col md:row-start-1 md:row-end-8 md:col-start-1 md:col-end-6 '>
             <h3 className='w-full px-6 py-2 lg:p-6 text-black/70 text-center text-xl font-semibold md:text-left'>NO LIMITS</h3>
@@ -45,6 +46,7 @@ function Section7() {
             <img className='w-full h-full' src='/img/section7/section76.png' alt='section76' />
         </div>
     </div>
+    </Transition>
   )
 }
 
