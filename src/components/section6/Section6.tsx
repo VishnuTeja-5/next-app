@@ -16,9 +16,9 @@ function Section6() {
                 </div>
             </Transition>
         </div>
-        <div className='w-full md:col-start-7 md:col-end-13 md:place-items-center'>
+        <div className='w-full overflow-hidden md:col-start-7 md:col-end-13 md:place-items-center'>
             <Transition delay={0.5} x={50} stiffness={30}>
-            <Image className='w-full flex justify-center items-center' src='/img/section6/section63.png' alt='section63' width={100} height={100} />
+            <img className='scale-150 w-full flex justify-center items-center' src='/img/section6/section63.png' alt='section63' width={100} height={100} />
             </Transition>
         </div>
     </div>
