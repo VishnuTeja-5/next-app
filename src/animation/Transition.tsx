@@ -20,7 +20,7 @@ const Transition = ({children, delay = 0, x = 0, y = 0, stiffness = 100, duratio
         if (isInview) {
           controls.start("visible");
         }
-      }, [isInview]);
+      }, [isInview, controls]);
   return (
     <motion.div 
         ref={ref}

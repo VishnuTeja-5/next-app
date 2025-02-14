@@ -1,6 +1,7 @@
+"use client"
 import { Transition } from '@/animation'
 import React from 'react'
-
+import Image from 'next/image'
 function Section11() {
   return (
     <div className='w-full min-h-screen max-h-fit py-24'>
@@ -24,7 +25,7 @@ function Section11() {
                     </div>
                 </div>
                 <div className='w-full flex justify-center items-center md:items-start mx-auto h-full p-4'>
-                    <img className='w-full max-w-[80%] md:-translate-y-32 md:translate-x-20' src='/img/section11/section11.png' alt='' />
+                    <Image className='w-full max-w-[80%] md:-translate-y-32 md:translate-x-20' src='/img/section11/section11.png' alt='section11' width={900} height={900} quality={100}/>
                 </div>
                 <div className='absolute bottom-0 left-0 w-[95%] h-4 bg-gradient-to-r from-blue-800 to-violet-950 via-green-600'></div>
             </div>

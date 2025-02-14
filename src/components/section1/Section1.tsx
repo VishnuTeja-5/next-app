@@ -1,6 +1,5 @@
 "use client";
 import { Transition } from '@/animation'
-import Image from 'next/image';
 import React from 'react'
 import { Section1Sub1, Section1Sub2 } from '@/components'
 

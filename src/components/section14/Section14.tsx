@@ -1,6 +1,7 @@
 "use client"
 import { Transition } from '@/animation'
 import React from 'react'
+import Image from 'next/image'
 
 function Section14() {
   return (
@@ -13,21 +14,21 @@ function Section14() {
                 <p className='w-[90%]'>Lorem ipsum dolor sit amet consectetur. Mauris ullamcorper etiam leo eleifend condimentum in vitae faucibus. </p>
                 <div className='w-full h-full flex flex-col gap-4 p-4'>
                     <div className='w-full flex gap-2'>
-                        <img className='w-8 h-8 p-1' src="/img/section14/section142.png" alt="section142" />
+                        <Image className='w-8 h-8 p-1' src="/img/section14/section142.png" alt="section142" width={900} height={900} quality={100}/>
                         <div className='w-full flex flex-col gap-4'>
                             <h3 className='w-full font-semibold'>Lorem ipsum dolor sit amet consectetur. Volutpat hac morbi egestas.</h3>
                             <p>Lorem ipsum dolor sit amet consectetur. Eros egestas et arcu eu non viverra. Risus quam mattis senectus vitae interdum odio ornare gravida vestibulum. Donec turpis nulla felis mauris eu donec. Ipsum sit ut tortor.</p>
                         </div>
                     </div>
                     <div className='w-full flex gap-2'>
-                        <img className='w-8 h-8 p-1' src="/img/section14/section142.png" alt="section142" />
+                        <Image className='w-8 h-8 p-1' src="/img/section14/section142.png" alt="section142" width={900} height={900} quality={100}/>
                         <div className='w-full flex flex-col gap-4'>
                             <h3 className='w-full font-semibold'>Lorem ipsum dolor sit amet consectetur. Volutpat hac morbi egestas.</h3>
                             <p>Lorem ipsum dolor sit amet consectetur. Eros egestas et arcu eu non viverra. Risus quam mattis senectus vitae interdum odio ornare gravida vestibulum. Donec turpis nulla felis mauris eu donec. Ipsum sit ut tortor.</p>
                         </div>
                     </div>
                     <div className='w-full flex gap-2'>
-                        <img className='w-8 h-8 p-1' src="/img/section14/section142.png" alt="section142" />
+                        <Image className='w-8 h-8 p-1' src="/img/section14/section142.png" alt="section142" width={900} height={900} quality={100}/>
                         <div className='w-full flex flex-col gap-4'>
                             <h3 className='w-full font-semibold'>Lorem ipsum dolor sit amet consectetur. Volutpat hac morbi egestas.</h3>
                             <p>Lorem ipsum dolor sit amet consectetur. Eros egestas et arcu eu non viverra. Risus quam mattis senectus vitae interdum odio ornare gravida vestibulum. Donec turpis nulla felis mauris eu donec. Ipsum sit ut tortor.</p>
@@ -38,7 +39,7 @@ function Section14() {
             </div>
             <div className='w-full h-full md:col-start-8 md:col-end-13'>
                 <div className='w-full h-full flex justify-center md:justify-end items-center'>
-                <img className='w-[80%] sm:w-[70%]' src='/img/section14/section141.png' alt='section141' />
+                <Image className='w-[80%] sm:w-[70%]' src='/img/section14/section141.png' alt='section141' width={900} height={900} quality={100}/>
                 </div>
             </div>
 

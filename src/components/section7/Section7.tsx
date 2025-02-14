@@ -1,4 +1,6 @@
-import { Transition } from '@/animation'
+"use client"
+import { Transition } from '@/animation';
+import Image from 'next/image';
 import React from 'react'
 
 function Section7() {
@@ -20,30 +22,30 @@ function Section7() {
 
             </div>
         </div>
-        <img className='w-full p-4 md:hidden' src='/img/section7/section73.png' alt='section73' />
+        <Image className='w-full p-4 md:hidden' src='/img/section7/section73.png' alt='section73' width={900} height={900} quality={100}/>
         <div className='hidden md:block w-full h-full row-start-5 row-end-8 col-start-6 col-end-7'>
-            <img className='w-full h-full' src='/img/section7/section72.png' alt='section72' />
+            <Image className='w-full h-full' src='/img/section7/section72.png' alt='section72' width={900} height={900} quality={100} />
         </div>
         <div className='hidden md:block w-full h-full row-start-3 row-end-6 col-start-7 col-end-8'>
-            <img className='w-full h-full' src='/img/section7/section78.png' alt='section78' />
+            <Image className='w-full h-full' src='/img/section7/section78.png' alt='section78' width={900} height={900} quality={100}/>
         </div>
         <div className='hidden md:block w-full h-full row-start-2 row-end-6 col-start-8  col-end-12'>
-            <img className='w-full h-full' src='/img/section7/section71.png' alt='section71' />
+            <Image className='w-full h-full' src='/img/section7/section71.png' alt='section71' width={900} height={900} quality={100}/>
         </div>
         <div className='hidden md:block w-full h-full row-start-6 row-end-9 col-start-7 col-end-12'>
-            <img className='w-full h-full' src='/img/section7/section73.png' alt='section73' />
+            <Image className='w-full h-full' src='/img/section7/section73.png' alt='section73' width={900} height={900} quality={100}/>
         </div>
         <div className='hidden md:block w-full h-full row-start-9 row-end-11 col-start-1 col-end-3'>
-            <img className='w-full h-full' src='/img/section7/section74.png' alt='section74' />
+            <Image className='w-full h-full' src='/img/section7/section74.png' alt='section74' width={900} height={900} quality={100}/>
         </div>
         <div className='hidden md:block w-full h-full row-start-8 row-end-11 col-start-3 col-end-7'>
-            <img className='w-full h-full' src='/img/section7/section75.png' alt='section75' />
+            <Image className='w-full h-full' src='/img/section7/section75.png' alt='section75' width={900} height={900} quality={100}/>
         </div>
         <div className='hidden md:block w-full h-full row-start-9 row-end-11 col-start-7 col-end-8'>
-            <img className='w-full h-full' src='/img/section7/section77.png' alt='section77' />
+            <Image className='w-full h-full' src='/img/section7/section77.png' alt='section77' width={900} height={900} quality={100}/>
         </div>
         <div className='hidden md:block w-full h-full row-start-9 row-end-11 col-start-8 col-end-12'>
-            <img className='w-full h-full' src='/img/section7/section76.png' alt='section76' />
+            <Image className='w-full h-full' src='/img/section7/section76.png' alt='section76' width={900} height={900} quality={100}/>
         </div>
     </div>
     </Transition>

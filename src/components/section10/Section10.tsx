@@ -1,6 +1,7 @@
 "use client"
 import { Transition } from '@/animation'
 import React, { useState } from 'react'
+import Image from 'next/image'
 
 
 
@@ -53,7 +54,7 @@ function Section10() {
 
                 </div>
                 <div className='w-full h-full p-8'>
-                    <img className='w-full' src='/img/section10/section10.png' alt='section10'/>
+                    <Image className='w-full' src='/img/section10/section10.png' alt='section10' width={900} height={900} quality={100}/>
                 </div>
             </div>
         </div>
