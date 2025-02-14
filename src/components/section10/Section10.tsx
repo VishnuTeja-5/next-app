@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 
 function Section10() {
-    let buttonStates = {
+    const buttonStates = {
         button1: false,
         button2: false,
         button3: false,
