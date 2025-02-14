@@ -1,4 +1,6 @@
-import { Transition } from '@/animation'
+import { Transition } from '@/animation';
+// import { Carousel } from '@/components'
+import { AppleCardsCarouselDemo } from './AppleCardsCarouselDemo';
 import React from 'react'
 
 function Section9() {
@@ -15,6 +17,8 @@ function Section9() {
                 <button className='bg-white/90 px-16 py-2 rounded-md font-semibold shadow-xl'>Lorem Ipsum</button>
             </div>
         </div>
+        {/* <Carousel /> */}
+        <AppleCardsCarouselDemo />
     </div>
     </Transition>
   )
