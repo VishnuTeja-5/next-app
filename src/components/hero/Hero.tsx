@@ -11,7 +11,7 @@ function Hero() {
             <p className='w-full text-center md:text-left font-subheading'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aliquam itaque quidem voluptate doloribus commodi vitae voluptates rerum veniam dolore distinctio nam quaerat, voluptatum error adipisci odio consequuntur repudiandae tempore.</p>
             <div className='w-full flex flex-col justify-center md:justify-start items-center sm:flex-row gap-4 md:pt-12'>
                 <input type='text' className='rounded px-4 py-2 w-60 md:w-72 border border-gray-300' />
-                <button className='w-fit rounded px-4 text-sm font-semibold py-2 bg-primary text-white'>Submit &#8594;</button>
+                <button className='w-fit hover:scale-110 duration-300 rounded px-4 text-sm font-semibold py-2 bg-primary text-white'>Submit &#8594;</button>
             </div>
             <div className='w-full flex justify-center md:justify-start items-center gap-2'>
                 <span className='w-8 p-1 text-center rounded-full bg-secondary text-white'>&#10003;</span>
@@ -19,8 +19,9 @@ function Hero() {
             </div>
         </div>
         
-        <div className='p-4 md:p-0 md:col-start-7 md:col-end-13 items-center justify-center'>
-            <img className='w-full h-full object-contain' width={100} height={100} src="/img/hero-a.png" alt='Hero Image' loading='lazy'/> 
+        <div className='relative w-full h-full p-4 md:p-0 md:col-start-7 md:col-end-13 items-center justify-center overflow-hidden'>
+            <img className='w-full h-full object-contain scale-125' width={100} height={100} src="/img/hero-a.png" alt='Hero Image' loading='lazy'/> 
+            <div className='w-full h-4 absolute bottom-0 right-0 bg-gradient-to-t from-white to-transparent'></div>
         </div>
     </div>
     </Transition>

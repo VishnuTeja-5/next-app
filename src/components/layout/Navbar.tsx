@@ -8,9 +8,11 @@ function Navbar() {
         <div className='px-4 py-2 font-bold text-3xl bg-black/20'>LOGO</div>
         <div className='font-subheading'>
           <ul className='flex gap-4'>
-            <li className=' text-primary font-semibold'>Lorem Ipsum &#8744;</li>
-            <li className=' text-primary font-semibold'>Lorem Ipsum &#8744;</li>
-            <li className=' text-primary font-semibold'>Lorem Ipsum &#8744;</li>
+            <li className=' text-primary font-semibold'><a href=''>Lorem Ipsum</a></li>
+            <li className=' text-primary font-semibold'><a href=''>Lorem Ipsum</a></li>
+            <li className=' text-primary font-semibold'><a href=''>Lorem Ipsum</a></li>
+            {/* <li className=' text-primary font-semibold'>Lorem Ipsum &#8744;</li>
+            <li className=' text-primary font-semibold'>Lorem Ipsum &#8744;</li> */}
           </ul>
         </div>
         <div className='w-32'>
