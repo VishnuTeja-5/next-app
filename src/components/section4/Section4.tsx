@@ -34,8 +34,17 @@ const cardData = [
   },
 ]
 function Section4() {
+  const svg = '/svg/Line7.svg';
+  const divStyle = {
+    backgroundImage: `url(${svg})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    width: '100%',
+    height: '100%',
+  };
   return (
     <Transition delay={0.5} x={50} stiffness={30}>
+      <div style={divStyle}>
         <div className='w-full p-2 pl-20 mr-0 flex flex-col gap-4 '>
             <h3 className='w-full px-4 md:w-[55%] flex justify-center md:justify-start text-secondary text-lg md:text-2xl text-center font-medium font-subheading'>
                 Lorem ipsum dolor sit amet
@@ -61,6 +70,7 @@ function Section4() {
           }
             
         </div>
+      </div>
     </Transition>
 
   )
